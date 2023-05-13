@@ -5,7 +5,6 @@
     }
 
     main.content{
-        background-color: #d31f1f;
         width: 350px;
         height: 900px;
     }
@@ -28,8 +27,8 @@
     }
 
     img.icon{
-        width: 50px;
-        height: 50px;
+        width: 0px;
+        height: 30px;
     }
     
 }

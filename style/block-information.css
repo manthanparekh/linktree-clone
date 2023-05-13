@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
 } 
 
 body::-webkit-scrollbar-thumb {   
-    background-color: #C4C4C4;   
+    background-color: #472dbd;   
     border-radius: 10px;
 }
 
@@ -20,58 +20,69 @@ div.align-block{
 }
 
 .block{
-    z-index: 4;
-    margin-top: 10%;
+    z-index: 2;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main.content{
-    background-color: #FFFFFF;
     width: 500px;
-    height: 1500px;
+    height: 1000px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    z-index: 2;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
 }
-iv.personal-information img{
+
+/* need image size */
+div.personal-information img{
     width: 180px;
     height: 180px;
-    border-radius: 50%;
-    margin-left: 20%;
-    margin-bottom: 5%;
+    border-radius: 70%;
+    margin-left: 25%;
+    margin-bottom: 9%;
+    
 }
+
 
 div.personal-information h1{
     font-family: 'Poppins', sans-serif;
-    color: #120c56;
-    font-size: 40px;
+    color: #f2f8f1;
+    font-size: 50px;
     text-align: center;
 }
 
 div.personal-information h3{
-    font-size: 22px;
+    font-size: 30px;
 }
 
 div.personal-information h3,
 div.personal-information p{
     font-family: 'Poppins', sans-serif;
-    color: #353839;
+    color: #f2f8f1;
     text-align: center;
 }
 
 div.click-here{
-    width: 300px;
+    width: 400px;
     height: 80px;
-    background-color: #22c1c3;
+    background-color: #49c4c6;
     border-radius: 50px;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 div.click-here p{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 35px;
     color: #FFFFFF;
     text-align: center;
     margin-left: 30px;
