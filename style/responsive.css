@@ -1,0 +1,35 @@
+@media(max-width: 500px) {
+    .block{
+        z-index: 2;
+        margin-top: 5%;
+    }
+
+    main.content{
+        background-color: #d31f1f;
+        width: 350px;
+        height: 900px;
+    }
+
+    div.personal-information img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-left: 25%;
+        margin-bottom: 10px;
+    }
+
+    div.click-here{
+        width: 300px;
+        height: 60px;
+        background-color: #22c1c3;
+        border-radius: 50px;
+        margin-top: 5%;
+    }
+
+    img.icon{
+        width: 50px;
+        height: 50px;
+    }
+    
+}
