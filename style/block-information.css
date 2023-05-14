@@ -48,7 +48,7 @@ div.personal-information img{
     height: 180px;
     border-radius: 70%;
     margin-left: 25%;
-    margin-bottom: 9%;
+    margin-bottom: 5%;
     
 }
 
@@ -58,6 +58,7 @@ div.personal-information h1{
     color: #f2f8f1;
     font-size: 50px;
     text-align: center;
+    margin-bottom: 3%;
 }
 
 div.personal-information h3{
@@ -69,6 +70,15 @@ div.personal-information p{
     font-family: 'Poppins', sans-serif;
     color: #f2f8f1;
     text-align: center;
+    margin-bottom: 6%;
+}
+
+div.icon-horizontal {
+    height: 50px;
+    width: 40px;
+    padding: 5px;
+    float: left;
+    margin-right: 25px;
 }
 
 div.click-here{
