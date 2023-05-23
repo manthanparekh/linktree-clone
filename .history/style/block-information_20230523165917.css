@@ -85,7 +85,7 @@ div.click-here{
     height: 30px;
     background-color: #49c4c6;
     border-radius: 50px;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 
 div.click-here p{
@@ -94,7 +94,7 @@ div.click-here p{
     font-size: 20px;
     color: #FFFFFF;
     text-align: center;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 .redirect-media{
@@ -107,8 +107,8 @@ a{
 }
 
 img.icon{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     margin-left: 10px;
 }
 
