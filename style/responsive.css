@@ -5,13 +5,13 @@
     }
 
     main.content{
-        width: 300px;
-        height: 200px;
+        width: 400px;
+        height: 100px;
     }
 
     div.personal-information img {
-        width: 900px;
-        height: 100px;
+        width: 200px;
+        height: 900px;
         border-radius: 50%;
         margin-top: 10px;
         margin-left: 25%;
@@ -19,8 +19,8 @@
     }
 
     div.click-here{
-        width: 300px;
-        height: 60px;
+        width: 250px;
+        height: 50px;
         background-color: #22c1c3;
         border-radius: 50px;
         margin-top: 5%;
