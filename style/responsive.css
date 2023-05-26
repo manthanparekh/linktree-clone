@@ -4,16 +4,12 @@
         margin-top: 5%;
     }
 
+    /*
     main.content{
-        /*
         width: 350px;
         height: 100px;
-        */
-        background-size: cover;
-        background-position: center;
-        background-size: 100%;
     }
-
+    */
     .stretch { min-width:100%; min-height:100%; width:auto; height:auto; }
     
     div.personal-information img {
