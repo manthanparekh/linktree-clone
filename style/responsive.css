@@ -4,17 +4,15 @@
         margin-top: 5%;
     }
 
-    /*
+
     main.content{
-        width: 350px;
-        height: 100px;
+        width: 300px;
+        height: 900px;
     }
-    */
-    .stretch { min-width:100%; min-height:100%; width:auto; height:auto; }
     
     div.personal-information img {
-        width: 200px;
-        height: 900px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
         margin-top: 10px;
         margin-left: 25%;
@@ -22,7 +20,7 @@
     }
 
     div.click-here{
-        width: 250px;
+        max-width: 300px;
         height: 50px;
         background-color: #22c1c3;
         border-radius: 50px;
@@ -30,7 +28,7 @@
     }
 
     img.icon{
-        width: 0px;
+        width: 30px;
         height: 30px;
     }
     
