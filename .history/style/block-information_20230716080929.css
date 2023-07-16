@@ -57,6 +57,16 @@ div.personal-information p{
     text-align: center;
 }
 
+
+div.icon-horizontal {
+    height: 40px;
+    width: 30px;
+    padding: 5px;
+    float: left;
+    margin-right: 5px;
+}
+
+
 div.click-here{
     width: 250px;
     height: 80px;

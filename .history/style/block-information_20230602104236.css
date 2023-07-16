@@ -19,10 +19,14 @@ div.align-block{
     align-items: center;
 }
 
+.block{
+    z-index: 2;
+    margin-top: 10%;
+}
 
 main.content{
-    width: auto;
-    height: auto;
+    width: 450px;
+    height: 1200px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -56,6 +60,16 @@ div.personal-information p{
     color: #f2f8f1;
     text-align: center;
 }
+
+
+div.icon-horizontal {
+    height: 40px;
+    width: 30px;
+    padding: 5px;
+    float: left;
+    margin-right: 5px;
+}
+
 
 div.click-here{
     width: 250px;
