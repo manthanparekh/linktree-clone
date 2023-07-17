@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Courgette');
-@import url('https://fonts.cdnfonts.com/css/bruno-ace-sc');
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
 
 html{
     scroll-behavior: smooth;
@@ -11,14 +10,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-}
-
-div.align-block{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 main.content{
     width: auto;
@@ -31,17 +26,18 @@ main.content{
 }
 
 div.personal-information img{
-    width: 180px;
-    height: 180px;
+    height: auto;
     border-radius: 50%;
-    margin-left: 20%;
-    margin-bottom: 5%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div.personal-information h1{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     color: #f2f8f1;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     margin-bottom: 3%;
 }
@@ -52,56 +48,62 @@ div.personal-information h3{
 
 div.personal-information h3,
 div.personal-information p{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     color: #f2f8f1;
     text-align: center;
 }
 
-div.click-here{
-    width: 250px;
-    height: 80px;
-    background-color: #49c4c6;
-    border-radius: 50px;
-    margin-top: 5%;
-}
-
-div.click-here p{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 25px;
-    color: #FFFFFF;
-    text-align: center;
-    margin-left: 20px;
-}
-
-.redirect-media{
+.redirect-media {
+	position: relative;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
     display: flex;
+    text-align: center;
     align-items: center;
 }
 
-a{
-    text-decoration: none;
-}
-
-img.icon{
-    width: 60px;
-    height: 60px;
-    margin-left: 25px;
-}
-
-p.subtitles{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    color: #353839;
+.click-here {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    margin-top: 40px;
+}
+.click-here::before {
+	content: '';
+	position: absolute;
+	width: 160%;
+	height: 75%;
+	z-index: 1;
+	background-color: rgba(255,255,255,0.1);
+	transition: all 0.3s;
+}
+.click-here:hover::before {
+	opacity: 0 ;
+	transform: scale(0.5,0.5);
+}
+.click-here::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: auto;
+	height: auto;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border: 1px solid rgba(255,255,255,0.5);
+	transform: scale(1.2,1.2);
+}
+.click-here:hover::after {
+	opacity: 1;
+	transform: scale(1,1);
 }
 
-div.no-icon p{
-    margin-left: 0px;
-}
-
-div.no-icon p.align-text{
-    width: 300px;
+div.click-here p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 20;
+    font-size: 25px;
+    color: #FFFFFF;
     text-align: center;
+    margin-left: 5px;
 }
