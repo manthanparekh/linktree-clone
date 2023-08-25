@@ -63,6 +63,12 @@ div.personal-information p{
     text-align: center;
 }
 
+.links button {
+  display: block;
+  margin-bottom: 15px;
+}
+
+
 button {
   position: relative;
   background: #444;
@@ -74,7 +80,7 @@ button {
   font-size: 1rem;
   padding: 1rem 3rem;
   transition: 0.2s;
-  gap: 1rem;
+  width: 100%;
 }
 
 button:hover {
@@ -82,7 +88,7 @@ button:hover {
   padding: 1.1rem 3.1rem;
   background: var(--clr);
   color: var(--clr);
-  /* box-shadow: 0 0 35px var(--clr); */
+  box-shadow: 0 0 35px var(--clr); 
   animation: box 3s infinite;
 }
 
